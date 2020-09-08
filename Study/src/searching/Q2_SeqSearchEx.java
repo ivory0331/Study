@@ -2,7 +2,7 @@ package searching;
 
 import java.util.*;
 
-public class SeqSearchEx {
+public class Q2_SeqSearchEx {
 
 	public static void main(String[] args) {
 		

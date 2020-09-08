@@ -2,7 +2,7 @@ package searching;
 
 import java.util.*;
 
-public class SearchIndex {
+public class Q3_SearchIndex {
 
 	public static void main(String[] args) {
 		int[] a = {1,9,2,9,4,6,7,9};

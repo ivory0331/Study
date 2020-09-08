@@ -2,7 +2,7 @@ package searching;
 
 import java.util.*;
 
-public class BinarySearchTesterEx {
+public class Q6_BinarySearchTesterEx {
 
 	public static void main(String[] args) {
 		

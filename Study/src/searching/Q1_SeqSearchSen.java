@@ -2,7 +2,7 @@ package searching;
 
 import java.util.Scanner;
 
-public class SeqSearchSen { // 115p - Q1
+public class Q1_SeqSearchSen { // 115p - Q1
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -38,7 +38,7 @@ public class SeqSearchSen { // 115p - Q1
 		for(int i=0; i<num; i++) {
 			if(x[i]==key) {
 				a = i;
-			}
+			} 
 		}
 		return a;
 	}
