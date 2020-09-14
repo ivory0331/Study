@@ -167,6 +167,7 @@ public class solution3 {
 			answer[i] = cnt;
 		}
 		
+		
 		for(int ans : answer) {
 			System.out.println(ans);
 		}
