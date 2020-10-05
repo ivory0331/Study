@@ -5,7 +5,8 @@ public class heapSort2 {
 	public static void main(String[] args) {
 		int[] data = {4,53,77,65,36,45,88,61,8,24};
 
-		heap(data, data.length); // 88 65 77 61 36 45 53 4 8 24 
+		heap(data, data.length); // 88 65 77 61 36 45 53 4 8 24 루트
+		// 가장 큰 숫자를 루트에 놓은 힙정렬 상태로 만들기 위해 일단 한번 실행
 		
 		for(int i=data.length-1; i>0; i--) { // 가장 큰 숫자를 맨 마지막으로
 			int temp = data[0];

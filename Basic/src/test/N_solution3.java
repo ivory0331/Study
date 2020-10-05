@@ -13,7 +13,6 @@ public class N_solution3 {
 				int sum = x*y; 
 				answer = Math.max(answer, sum);
 			}
-			
 		}
 		
 		System.out.println(answer);

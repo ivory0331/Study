@@ -4,16 +4,12 @@ public class mergeSort2 {
 
 	public static void main(String[] args) {
 		int[] arr = {3,9,4,7,5,0,1,6,8,2};
-		mergeSort(arr);
+		int[] tmp = new int[arr.length];
+		
+		mergeSort(arr, tmp, 0, arr.length-1);
 		
 		for(int ans : arr)
 			System.out.print(ans+" ");
-	}
-
-	private static void mergeSort(int[] arr) {
-		int[] tmp = new int[arr.length];
-		mergeSort(arr, tmp, 0, arr.length-1);
-		// 배열, 임시저장배열, 시작index, 끝index 를 넘겨줌 
 	}
 
 	private static void mergeSort(int[] arr, int[] tmp, int start, int end) {

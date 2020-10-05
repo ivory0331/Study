@@ -17,6 +17,8 @@ public class selectionSort {
 		
 		selectionSort(n, sort_s);
 		
+		sc.close();
+		
 		for(int ans: sort_s) {
 			System.out.print(ans+" ");
 		}
